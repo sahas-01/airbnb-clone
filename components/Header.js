@@ -16,7 +16,7 @@ function Header({ placeholder }) {
         key: 'selection',
     }
     const handleSelect = (ranges) => {
-        console.log(ranges)
+        // console.log(ranges)
         setStartDate(ranges.selection.startDate)
         setEndDate(ranges.selection.endDate)
     }
@@ -24,7 +24,7 @@ function Header({ placeholder }) {
         setSearchInput('')
     }
     const search = () => {
-        console.log('search')
+        // console.log('search')
         Router.push({
             pathname: '/search',
             query: {
